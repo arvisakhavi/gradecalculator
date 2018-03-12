@@ -1,0 +1,76 @@
+h1 {
+    font-family: "Andale Mono";
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 2.5px grey;
+}
+
+h2 {
+    font-family: "Andale Mono";
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 2.5px grey;
+}
+
+body {
+    background: lightsteelblue ;
+    color: white;
+    font-family: "Andale Mono";
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    font-family: "Times New Roman";
+    padding: 15px 32px;
+    color: black;
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+#currentGradeCalculator {
+    box-shadow: 0 2.5px grey;
+    background: white ;
+    color: lightsteelblue;
+    font-family: "Andale Mono";
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#currentGradeCalculator:hover {
+    box-shadow: none;
+    background: transparent ;
+    color: white;
+    font-family: "Andale Mono";
+    border: 1px solid;
+    border-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#finalGradeCalculator{
+    box-shadow: 0 2.5px grey;
+    background: white ;
+    color: lightsteelblue;
+    font-family: "Andale Mono";
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#finalGradeCalculator:hover {
+    box-shadow: none;
+    background: transparent ;
+    color: white;
+    font-family: "Andale Mono";
+    border: 1px solid;
+    border-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+

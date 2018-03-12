@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+</head>
+<h1>GRADE CALCULATOR</h1>
+
+<table style ="color: white; width:100%; border-color: white" border="1" >
+        <tr>
+                <th>Homework Points</th>
+                <th>Classwork Points</th>
+                <th>Assessment Points</th>
+                <th>Participation Points</th>
+        </tr>
+        <tr align="center">
+                <td>
+                        <input id="hwp" width="100%" value="">
+                </td>
+                <td>
+                        <input id="cwp" width="100%" value="">
+                </td>
+                <td>
+                        <input id="ap" width="100%" value="">
+                </td>
+                <td>
+                        <input id="pp" width="100%" value= "" >
+                </td>
+        </tr>
+</table>
+
+<br>
+<br>
+
+<table style = "color: white; width:100%; border-color: white" border="1">
+        <tr>
+                <th>Homework Weight</th>
+                <th>Classwork Weight</th>
+                <th>Assessment Weight</th>
+                <th>Participation Weight</th>
+        </tr>
+        <tr align="center">
+                <td>
+                        <input id="hww" width="100%" value ="">
+                </td>
+                <td>
+                        <input id="cww" width="100%" value ="">
+                </td>
+                <td>
+                        <input id="aw" width="100%" value ="">
+                </td>
+                <td>
+                        <input id="pw" width="100%" value ="">
+                </td>
+        </tr>
+</table>
+
+<br>
+<br>
+
+<button id="currentGradeCalculator" onclick="calculateCurrentGrade()">Calculate Grade</button>
+
+<div id ="currentGrade"></div>
+
+<br>
+
+<h2>FINALS CALCULATOR</h2>
+
+<p>
+ <label>Grade Desired</label>
+<input type = "text" id = "gradeDesired">
+</p>
+
+<p>
+<label>Final Weight</label>
+
+<input type = "text" id = "finalWeight">
+</p>
+
+<br>
+
+<button id = "finalGradeCalculator" onclick="finalGradeCalculator()">Calculate Grade Needed</button>
+
+<div id = "gradeNeeded"></div>
+
+
+</body>
+</html>
